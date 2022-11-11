@@ -20,7 +20,7 @@ const Homepage = () => {
         <div className='flex-col' id='about-me'>
             <img id='prof-pic' src={profpic} alt='profile' />
             <h2 id='hello-world'>
-                Hello world, I'm Brandon.
+                Hello world, I'm Brandon. test.
             </h2>
             <span id='about-blurb'>
                 Since transitioning from teaching High School Mathematics, I have designed, coded, and deployed three full stack projects (two solo projects and one team project). I am constantly striving to improve my understanding and fluency of the various programming languages and technologies, and am always eager to take on the next challenge.
