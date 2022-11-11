@@ -95,6 +95,7 @@
     color: #21214e;
 }
 
+#prof-pic,
 #hello-world {
     margin-bottom: 24px;
 }
@@ -186,4 +187,10 @@
 
 #footer-github {
     margin-right: 16px;
+}
+
+#prof-pic {
+    height: 280px;
+    border-radius: 50%;
+    border: 8px solid #21214e;
 }

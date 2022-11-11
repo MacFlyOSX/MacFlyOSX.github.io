@@ -5,6 +5,7 @@ import techstack from '../assets/techstack.png';
 import pearbnb from '../assets/pearbnb.png';
 import squeal from '../assets/squeal.png';
 import amalgamate from '../assets/amalgamate.png';
+import profpic from '../assets/IMG_9955.jpg';
 
 const Homepage = () => {
   return (
@@ -17,6 +18,7 @@ const Homepage = () => {
             <img src={splash} alt='splash' id='splash-image' />
         </div>
         <div className='flex-col' id='about-me'>
+            <img id='prof-pic' src={profpic} alt='profile' />
             <h2 id='hello-world'>
                 Hello world, I'm Brandon.
             </h2>
