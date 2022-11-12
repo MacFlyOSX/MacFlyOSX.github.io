@@ -7,6 +7,7 @@
     display: flex;
 }
 
+#linkedin-g,
 #github-path {
     fill: white;
     transition: 0.7s fill ease;
@@ -14,11 +15,6 @@
 
 .github:hover #github-path {
     fill: #9537ff;
-}
-
-#linkedin-g {
-    fill: white;
-    transition: 0.7s fill ease;
 }
 
 .linkedin:hover #linkedin-g {

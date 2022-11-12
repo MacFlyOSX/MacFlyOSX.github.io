@@ -23,7 +23,15 @@ const Homepage = () => {
                 Hello world, I'm Brandon.
             </h2>
             <span id='about-blurb'>
-                Since transitioning from teaching High School Mathematics, I have designed, coded, and deployed three full stack projects (two solo projects and one team project). I am constantly striving to improve my understanding and fluency of the various programming languages and technologies, and am always eager to take on the next challenge.
+            After 7 years of teaching AP Statistics and Geometry to high school students, I decided to pursue the beautiful marriage of my passions for problem-solving and creativity: software engineering. The transition from Mathematics to Computer Science was surprisingly seamless, thanks to the abilities to think creatively, process logically, and plan strategically that were developed and honed during my journeys through statistical analysis.
+            <br /><br />
+            Since transitioning into software engineering, I have designed, coded, and deployed three full stack projects (two solo projects and one team project). Despite enjoying my two solo projects, my favorite was working with my team. I truly enjoy working with people, understanding their communication styles, and building something incredible.
+            <br /><br />
+            One of my favorite things about writing code is how you can take a single idea, code it out, dress it up with a little style, and see it rendered on a webpage. In my mind, it’s a beautiful combination of Art and Mathematics.
+            <br /><br />
+            I am constantly striving to improve my understanding and fluency of the various programming languages and technologies, and am always eager to take on the next challenge. If you’re interested in getting connected, please reach out to me!
+            {/* <br /><br />
+            <button id='email-me'>Email Me</button> */}
             </span>
             <img id='techstack' src={techstack} alt='techstack' />
         </div>
