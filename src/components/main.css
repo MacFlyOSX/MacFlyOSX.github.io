@@ -3,14 +3,26 @@
     width: 100%;
 }
 
-#navbar-right-section {
+#navbar-middle {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+#navbar-right-section {
+    display: flex;
+    align-items: center;
+}
+
+#email-g,
 #linkedin-g,
 #github-path {
     fill: white;
     transition: 0.7s fill ease;
+}
+
+.email:hover #email-g {
+    fill: #86fbc0;
 }
 
 .github:hover #github-path {
@@ -21,21 +33,31 @@
     fill: #2f82fe;
 }
 
+.email,
+.nav-link,
 .github,
 .linkedin {
     display: flex;
     align-items: center;
 }
 
-.github {
+.nav-link {
     margin-right: 24px;
 }
 
 #navbar-inner {
     margin: 0 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 206.88px 1fr 206.88px;
+}
+
+.nav-mid-links {
+    font-size: 27px;
+    margin: 0 15px;
+}
+
+.nav-mid-links:hover {
+    color: #86fbc0;
 }
 
 #navbar-logo {
@@ -57,7 +79,7 @@
 
 #main-body {
     width: 100%;
-    padding: 32px 0 0;
+    padding: 0;
 }
 
 #main-title {
@@ -74,9 +96,10 @@
     height: 350px;
 }
 
+#projects,
 #about-me {
     width: 100%;
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 #about-me,
@@ -108,9 +131,9 @@
     height: 550px;
 }
 
-#projects {
+/* #projects {
     padding: 100px 0;
-}
+} */
 
 #projects-title {
     margin-bottom: 48px;
