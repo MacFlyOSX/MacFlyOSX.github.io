@@ -233,6 +233,14 @@ input, select, textarea {
 		margin-bottom: 0.5em;
 	}
 
+	#resume {
+		height: 120px;
+	}
+
+	#resume-a {
+		border: none;
+	}
+
 /* Container */
 
 	.container {
