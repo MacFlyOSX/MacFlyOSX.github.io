@@ -235,6 +235,11 @@ input, select, textarea {
 
 	#resume {
 		height: 120px;
+		transition: 1s transform;
+	}
+
+	#resume:hover {
+		transform: scale(1.2);
 	}
 
 	#resume-a {
